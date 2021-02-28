@@ -1,6 +1,6 @@
-# Design-Patterns
- 
-# Event
+# Game Design Patterns in Unity
+
+## Event
 
 This is an example that when the player needs to record the game data like killing times, maybe for personal records, maybe for task records. Due to multiple uses, we need to seperate the player and the character, whenever the character kills, the player, as a subscriber, will notices and does the record. Besides, if you have a task system, the individual task will be the subscriber too, but the character doesn't care who is listening, the character just does its business.  
 
@@ -14,7 +14,7 @@ If you want to add a task system, you and just do like what Player did, Characte
 
 Later I will change to EventHandlerArgs Version.
 
-# Singleton
+## Singleton
 
 I learned Singleton from Kencoder(https://kendevlog.wordpress.com/2018/08/14/unity%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98%EF%BC%9A%E5%A6%82%E4%BD%95%E5%AF%A6%E7%8F%BEsingleton/), for this testing I didn't edit much, yet I will make my own version on my pratical use in game development and replace this part or show in the new project.  
 Becuse basically almost all codes are from Kendcoder's share, I won't explain anything, please go to his/her website.
