@@ -6,7 +6,7 @@ public class Zyra : Character
 {
     public Zyra()
     {
-        m_eCharacter = ECharacter.Zyra;
+        m_ECharacter = ECharacter.Zyra;
     }
     public override void Kill()
     {

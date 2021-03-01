@@ -6,7 +6,7 @@ public class Ezreal : Character
 {
    public Ezreal()
     {
-        m_eCharacter = ECharacter.Ezreal;
+        m_ECharacter = ECharacter.Ezreal;
     }
 
     public override void Kill()
